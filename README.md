@@ -7,7 +7,7 @@ This work is a replication of the PRETSA research. Original GitHub repository: P
 Our replication follows the methodology of the original study, extending it to additional datasets, including BPIC 2011. The repository includes scripts for preprocessing, analysis, and evaluation of the algorithms' performance and impact on data privacy.
 
 ## Dataset and Preprocessing
-The replication involved datasets such as Traffic Fines, Hospital Billing, CoSeLog, and BPIC 2011. Preprocessing steps included calculation of event durations, renaming columns, and converting event logs to compatible formats.
+The replication involved datasets such as Traffic Fines, Hospital Billing, CoSeLog, BPIC 2013, Sepsis, BPIC 2011. Preprocessing steps included calculation of event durations, renaming columns, and converting event logs to compatible formats.
 
 ## Experiment Setup and Execution
 The replication study aims to validate the performance and utility preservation of the PRETSA suite. We conducted detailed runtime and utility analyses.
@@ -23,5 +23,21 @@ The replication process is structured as follows:
    Replace `LOG_NAME`, `ALGORITHM`, `{tvalue}`, and `{kvalue}` with your specific identifiers.
 6. **Analysis Execution**: Run the `analysis.ipynb` Jupyter notebook for analysis. Use `analysis_helper.ipynb` to format the `.pickle` files beforehand.
 
+Important: To successfully replicate the experiment across all six event logs, including BPIC 2011, Traffic Fines, and Hospital Billings, it's necessary to have the respective .xes files in their designated folders. Please download these files from the sources cited and place them as instructed in the earlier sections. If this step is ignored, the replication will run on the other three event logs(included in this repository) without any errors.
+
+### Data Sources
+The following datasets were used in the replication study:
+
+- CoSeLog: [DOI: 10.4121/uuid:a07386a5-7be3-4367-9535-70bc9e77dbe6](https://doi.org/10.4121/uuid:a07386a5-7be3-4367-9535-70bc9e77dbe6)
+- BPIC 2011: [DOI: 10.4121/uuid:d9769f3d-0ab0-4fb8-803b-0d1120ffcf54](https://doi.org/10.4121/uuid:d9769f3d-0ab0-4fb8-803b-0d1120ffcf54)
+- Traffic Fines: [DOI: 10.4121/uuid:270fd440-1057-4fb9-89a9-b699b47990f5](https://doi.org/10.4121/uuid:270fd440-1057-4fb9-89a9-b699b47990f5)
+- Hospital Billings: [DOI: 10.4121/uuid:76c46b83-c930-4798-a1c9-4be94dfeb741](https://doi.org/10.4121/uuid:76c46b83-c930-4798-a1c9-4be94dfeb741)
+- BPIC 2013: [DOI: 10.4121/uuid:500573e6-accc-4b0c-9576-aa5468b10cee](https://doi.org/10.4121/uuid:500573e6-accc-4b0c-9576-aa5468b10cee)
+- Sepsis: [DOI: 10.4121/uuid:915d2bfb-7e84-49ad-a286-dc35f063a460](https://doi.org/10.4121/uuid:915d2bfb-7e84-49ad-a286-dc35f063a460)
+
 
 [^1]: Fahrenkrog-Petersen, S.A., van der Aa, H. and Weidlich, M., 2023. Optimal event log sanitization for privacy-preserving process mining. Data & Knowledge Engineering, 145, p.102175.
+
+
+
+
