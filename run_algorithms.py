@@ -120,8 +120,8 @@ event_logs = {
     "bpic2013": {"file_path": "logs/bpic2013/log.xes", },
     "sepsis": {"file_path": "logs/sepsis/log.xes", },
     "CoSeLoG": {"file_path": "logs/CoSeLoG/log.xes", },
-    "Hospital_billings": {"file_path": "logs/Hospital_billings/log.xes", },
-    "traffic_fines": {"file_path": "logs/traffic_fines/log.xes", },
+    # "Hospital_billings": {"file_path": "logs/Hospital_billings/log.xes", },
+    # "traffic_fines": {"file_path": "logs/traffic_fines/log.xes", },
 }
 
 for al in algos:

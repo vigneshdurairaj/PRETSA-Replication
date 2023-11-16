@@ -15,9 +15,9 @@ base_dirs = [
     'logs/bpic2011',
     'logs/bpic2013',
     'logs/CoSeLoG',
-    'logs/Hospital_billings',
+    # 'logs/Hospital_billings',
     'logs/sepsis',
-    'logs/traffic_fines',
+    # 'logs/traffic_fines',
 ]
 
 

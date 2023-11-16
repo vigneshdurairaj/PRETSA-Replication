@@ -3,13 +3,13 @@ This repository contains the replication code and analysis for the research cond
 This work is a replication of the PRETSA research. Original GitHub repository: PRETSA Original Repository : [Link](https://github.com/samadeusfp/PRETSA)
 
 
-##Implementation Details
+## Implementation Details
 Our replication follows the methodology of the original study, extending it to additional datasets, including BPIC 2011. The repository includes scripts for preprocessing, analysis, and evaluation of the algorithms' performance and impact on data privacy.
 
-##Dataset and Preprocessing
+## Dataset and Preprocessing
 The replication involved datasets such as Traffic Fines, Hospital Billing, CoSeLog, and BPIC 2011. Preprocessing steps included calculation of event durations, renaming columns, and converting event logs to compatible formats.
 
-##Experiment Setup and Execution
+## Experiment Setup and Execution
 The replication study aims to validate the performance and utility preservation of the PRETSA suite. We conducted detailed runtime and utility analyses.
 The replication process is structured as follows:
 

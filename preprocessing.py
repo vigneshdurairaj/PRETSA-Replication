@@ -50,8 +50,8 @@ event_logs = {
     "bpic2013": {"file_path": "logs/bpic2013/log.xes", "change_params": {'case:concept:name': 'Case ID', 'concept:name': 'Activity', 'time:timestamp': 'Complete Timestamp'}},
     "sepsis": {"file_path": "logs/sepsis/log.xes", "change_params": {'case:concept:name': 'Case ID', 'concept:name': 'Activity', 'time:timestamp': 'Complete Timestamp'}},
     "CoSeLoG": {"file_path": "logs/CoSeLoG/log.xes", "change_params": {'case:concept:name': 'Case ID', 'concept:name': 'Activity', 'time:timestamp': 'Complete Timestamp'}},
-    "Hospital_billings": {"file_path": "logs/Hospital_billings/log.xes", "change_params": {'case:concept:name': 'Case ID', 'concept:name': 'Activity', 'time:timestamp': 'Complete Timestamp'}},
-    "traffic_fines": {"file_path": "logs/traffic_fines/log.xes", "change_params": {'case:concept:name': 'Case ID', 'concept:name': 'Activity', 'time:timestamp': 'Complete Timestamp'}},
+    # "Hospital_billings": {"file_path": "logs/Hospital_billings/log.xes", "change_params": {'case:concept:name': 'Case ID', 'concept:name': 'Activity', 'time:timestamp': 'Complete Timestamp'}},
+    # "traffic_fines": {"file_path": "logs/traffic_fines/log.xes", "change_params": {'case:concept:name': 'Case ID', 'concept:name': 'Activity', 'time:timestamp': 'Complete Timestamp'}},
 }
 
 for current_log in event_logs.keys():
