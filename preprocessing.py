@@ -46,7 +46,7 @@ def compute_duration(df, dataset_name):
 times = {}
 
 event_logs = {
-    "bpic2011": {"file_path": "logs/bpic2011/log.xes", "change_params": {'case:concept:name': 'Case ID', 'concept:name': 'Activity', 'time:timestamp': 'Complete Timestamp'}},
+    # "bpic2011": {"file_path": "logs/bpic2011/log.xes", "change_params": {'case:concept:name': 'Case ID', 'concept:name': 'Activity', 'time:timestamp': 'Complete Timestamp'}},
     "bpic2013": {"file_path": "logs/bpic2013/log.xes", "change_params": {'case:concept:name': 'Case ID', 'concept:name': 'Activity', 'time:timestamp': 'Complete Timestamp'}},
     "sepsis": {"file_path": "logs/sepsis/log.xes", "change_params": {'case:concept:name': 'Case ID', 'concept:name': 'Activity', 'time:timestamp': 'Complete Timestamp'}},
     "CoSeLoG": {"file_path": "logs/CoSeLoG/log.xes", "change_params": {'case:concept:name': 'Case ID', 'concept:name': 'Activity', 'time:timestamp': 'Complete Timestamp'}},

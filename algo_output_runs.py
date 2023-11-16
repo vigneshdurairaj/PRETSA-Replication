@@ -12,7 +12,7 @@ def get_mean_cycle_times(filePath):
 
 
 base_dirs = [
-    'logs/bpic2011',
+    # 'logs/bpic2011',
     'logs/bpic2013',
     'logs/CoSeLoG',
     # 'logs/Hospital_billings',

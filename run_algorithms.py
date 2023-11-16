@@ -116,7 +116,7 @@ algos = [
 ]
 
 event_logs = {
-    "bpic2011": {"file_path": "logs/bpic2011/log.xes", },
+    # "bpic2011": {"file_path": "logs/bpic2011/log.xes", },
     "bpic2013": {"file_path": "logs/bpic2013/log.xes", },
     "sepsis": {"file_path": "logs/sepsis/log.xes", },
     "CoSeLoG": {"file_path": "logs/CoSeLoG/log.xes", },
